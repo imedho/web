@@ -1,0 +1,110 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fffefc;
+    width: 60%;
+    margin: auto;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 100%;
+    grid-column-gap: 1em;
+}
+
+.headertxt {
+    text-align: right;
+}
+
+#headername {
+    text-transform: uppercase;
+    font-family: oswald;
+    font-size: 3em;
+}
+
+#headertitles {
+    font-family: quattrocento;
+    font-weight: regular;
+}
+
+.about {
+    padding-top: 1em;
+    width: 70%;
+    font-family: quattrocento;   
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(auto, auto);
+    grid-row-gap: 3em;
+    grid-column-gap: 1em;
+}
+
+.projects > div > a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.projectimg {
+    grid-column: span 2;
+    width: 100%;
+    display: block;
+}
+
+.projectdsc {
+    font-family: quattrocento;
+}
+
+.projects > div:nth-child(4n+3) {
+    text-align: center;
+}
+
+.projectdscheader {
+    font-family: oswald;
+    text-transform: uppercase;
+    font-size: 1.6em;
+    text-align: left;
+    width: 90%;
+}
+
+.projectabout {
+    padding-top: .5em;
+    text-align: left;
+    width: 90%;
+    margin: auto;
+}
+
+.projectdsc {
+    text-align: center;
+}
+
+
+.footer {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    font-family: quattrocento;
+}
+
+.abouttxt {
+    text-align: justify;
+}
+
+
+
+
+
+

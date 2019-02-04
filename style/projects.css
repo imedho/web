@@ -1,0 +1,84 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fffefc;
+    width: 60%;
+    margin: auto;
+}
+
+.homebutton {
+    text-transform: uppercase;
+    font-family: oswald;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+#img1 {
+    width: 100%;
+    display: block;
+}
+
+#landingtitle {
+    font-family: oswald;
+    text-transform: uppercase;
+    font-size: 3em;
+    text-align: center;
+}
+
+.home {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#landingdsc {
+    font-family: quattrocento;
+    font-size: 1.2em;
+    text-align: justify;
+
+}
+
+.landingdscdiv {
+    width: 50%;
+    margin: auto;
+}
+
+.projectimg {
+    width: 100%;
+    display: block;
+}
+
+.landingcontainer {
+    margin-bottom: 10em;
+}
+
+.landingimg {
+    margin-bottom: 3em;
+}
+
+
+
+.projectdsccontainer {
+    width: 50%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 6em;
+}
+
+
+
+.projectdsc {
+    font-family: quattrocento;
+    font-size: 1.2em;
+    text-align: justify;
+    width: 90%;
+}
+
