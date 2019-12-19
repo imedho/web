@@ -26,22 +26,31 @@ header {
     margin-bottom: 8em;
 }
 
+.title {
+    text-align: center;
+}
 
 #landingtitle {
     font-family: 'Poppins', sans-serif;
-    text-transform: ;
     font-size: 2em;
-    text-align: center;
     font-weight: 500;
+    text-align: center;
 }
-
+ 
 #landingdsc {
     font-family: 'Poppins', sans-serif;
-    font-size: 1em;
-    width: 50%;
-    margin: auto;
     font-weight: 300;
+}
+
+.landingdscdiv {
     text-align: center;
+}
+
+#resume {
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    text-decoration: none;
+    color: black;
 }
 
 .projectimg {
