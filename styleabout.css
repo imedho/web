@@ -37,7 +37,6 @@ header {
     text-align: center;
 }
 
-
 .landingdscdiv {
     margin-top: .4em;
     text-align: center;
@@ -48,4 +47,40 @@ header {
 .landingdscdiv a {
     text-decoration: none;
     color: black;
+}
+
+#profilepic {
+    display: block;
+    width: 100%;
+}
+
+#pic{
+    width: 100%;
+    margin-right: 3em;
+}
+#container {
+    display: flex;
+}
+
+.dsc {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 2em;
+}
+
+#links{
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+
+#ig {
+    margin-right: 1em;
+}
+
+
+#links {
+    display: flex;
+    justify-content: center
 }
