@@ -36,19 +36,16 @@ header {
     font-weight: 500;
     text-align: center;
 }
- 
-#landingdsc {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-}
+
 
 .landingdscdiv {
-    text-align: center;
-}
-
-#resume {
+    margin-top: .4em;
     text-align: center;
     font-family: 'Poppins', sans-serif; 
+    line-height: 1.4em;
+}
+
+.landingdscdiv a {
     text-decoration: none;
     color: black;
 }
@@ -96,4 +93,21 @@ header {
     font-size: 1em;
     font-weight: 300;
     line-height: 2em;
+}
+
+#links{
+    margin-bottom: 4em;
+}
+
+#ig {
+    margin-right: 1em;
+}
+
+#linkedin{
+    
+}
+
+#links {
+    display: flex;
+    justify-content: center
 }

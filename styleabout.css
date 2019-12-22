@@ -1,0 +1,51 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fffefc;
+    width: 1000px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1080px) {
+    body {
+        width: 95%;
+        margin: auto;
+    }
+}
+
+header {
+    margin-top: 8em;
+    margin-bottom: 8em;
+}
+
+.title {
+    text-align: center;
+}
+
+#landingtitle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.landingdscdiv {
+    margin-top: .4em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    line-height: 1.4em;
+}
+
+.landingdscdiv a {
+    text-decoration: none;
+    color: black;
+}
