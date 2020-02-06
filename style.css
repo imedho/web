@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+.slick-prev:before, .slick-next:before { 
+    color:black !important;
+    
+}
+
 body {
     background: #fffefc;
     width: 1000px;
@@ -23,7 +28,7 @@ body {
 
 header {
     margin-top: 8em;
-    margin-bottom: 8em;
+    margin-bottom: 4em;
 }
 
 .title {
@@ -50,27 +55,23 @@ header {
     color: black;
 }
 
+.landingdscdiv2 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    line-height: 1.4em;
+}
+
+.landingdscdiv2 a {
+    text-decoration: none;
+    color: black;
+}
+
 .projectimg {
     width: 100%;
     display: block;
-    margin-bottom: 1em;
-}
-
-.vid {
-    margin-top: 1em;
-}
-
-.totorovid {
-    width: 49%;
-    margin-bottom: 2em;
-}
-
-#totorovidleft {
-    float: left;
-}
-
-#totorovidright {
-    float: right;
 }
 
 .projectdsccontainer {
