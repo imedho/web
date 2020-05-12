@@ -109,6 +109,9 @@ header {
     margin-right: 1em;
 }
 
+#flyf {
+    color: black;
+}
 
 #links {
     display: flex;
