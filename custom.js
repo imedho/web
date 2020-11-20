@@ -1,6 +1,7 @@
 $(document).ready(() => {
     $('.slick').slick({
     fade: true,
-        dots: true,
+    dots: true,
+    arrows: false,    
     });
 });

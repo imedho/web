@@ -24,7 +24,6 @@ body {
 
 @media only screen and (max-width: 1080px) {
     body {
-        
         width: 95%;
         margin: auto;
     }
@@ -124,11 +123,10 @@ header {
 
 @media only screen and (max-width: 800px) {
     body {
-        
-        width: 95%;
+        width: 100%;
         margin: auto;
-        padding-right: 1em;
-        padding-left: 1em;
+        padding-right: 0em;
+        padding-left: 0em;
     }
     
     .projectdsccontainer {
@@ -137,4 +135,6 @@ header {
     margin-top: 2em;
     margin-bottom: 10em;
 }
+   
+    
 }
