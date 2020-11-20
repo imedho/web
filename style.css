@@ -24,6 +24,7 @@ body {
 
 @media only screen and (max-width: 1080px) {
     body {
+        
         width: 95%;
         margin: auto;
     }
@@ -119,4 +120,21 @@ header {
 #links {
     display: flex;
     justify-content: center
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        
+        width: 95%;
+        margin: auto;
+        padding-right: 1em;
+        padding-left: 1em;
+    }
+    
+    .projectdsccontainer {
+    width: 80%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 10em;
+}
 }
