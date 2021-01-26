@@ -1,92 +1,106 @@
 *,
 *:before,
 *:after {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background: #f1f3f6;
-    width: 1000px;
-    margin: auto;
-    color: #333333;
+  background: #f1f3f6;
+  width: 1000px;
+  margin: auto;
+  color: #333333;
 }
 
 @media only screen and (max-width: 1080px) {
-    body {
-        width: 95%;
-        margin: auto;
-    }
+  body {
+    width: 95%;
+    margin: auto;
+  }
 }
 
 #imedho {
-    width: 50%;
-    margin: auto;
-    margin-bottom: 1em;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 1em;
 }
 
 header {
-    margin-top: 4em;
-    margin-bottom: 4em;
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
 
 .title {
-    text-align: center;
+  text-align: center;
 }
 
 #landingtitle {
-    font-family: 'Poppins', sans-serif;
-    font-size: 2em;
-    font-weight: 500;
-    text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  text-align: center;
 }
 
 .landingdscdiv {
-    text-align: center;
-    font-family: 'Poppins', sans-serif; 
-    line-height: 1.4em;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.4em;
 }
 
 .landingdscdiv a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 #profilepic {
-    display: block;
-    width: 100%;
+  display: block;
+  width: 100%;
 }
 
-#pic{
-    width: 100%;
-    margin-right: 3em;
+#pic {
+  width: 100%;
+  margin-right: 3em;
 }
 #container {
-    display: flex;
+  display: flex;
 }
 
 .dsc {
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    font-size: 1em;
-    font-weight: 300;
-    line-height: 2em;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 2em;
 }
 
-#links{
-    margin-top: 4em;
-    margin-bottom: 4em;
+#links {
+  margin-top: 4em;
+  margin-bottom: 4em;
 }
 
 #ig {
-    margin-right: 1em;
+  margin-right: 1em;
 }
 
-
 #links {
-    display: flex;
-    justify-content: center
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 760px) {
+  #container {
+    display: block;
+  }
+  .dsc {
+    margin: auto;
+    padding-top: 2em;
+    width: 80%;
+  }
+
+  body {
+    width: 100%;
+  }
 }
