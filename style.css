@@ -105,10 +105,15 @@ header {
 
 #links {
   margin-bottom: 4em;
+  display: flex;
+  justify-content: center;
 }
 
-#ig {
-  margin-right: 1em;
+#links > a {
+  display: block;
+  width: 26px;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
 }
 
 #flyf {
@@ -118,11 +123,6 @@ header {
 #processbook {
   color: #474952;
   font-size: 0.8em;
-}
-
-#links {
-  display: flex;
-  justify-content: center;
 }
 
 @media only screen and (max-width: 800px) {

@@ -79,15 +79,15 @@ header {
 #links {
   margin-top: 4em;
   margin-bottom: 4em;
-}
-
-#ig {
-  margin-right: 1em;
-}
-
-#links {
   display: flex;
   justify-content: center;
+}
+
+#links > a {
+  display: block;
+  width: 26px;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
 }
 
 @media only screen and (max-width: 760px) {
